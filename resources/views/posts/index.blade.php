@@ -8,8 +8,9 @@
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     </head>
-    <body>
+    <body class="antialased">
         <h1>Blog Name</h1>
+        <a href='/posts/create'>create</a>
         <div class="posts">
             @foreach ($posts as $post)
                 <div class="post">
