@@ -16,4 +16,9 @@ class PostController extends Controller
     {
         dd($Post);
     }
+    
+    public function create()
+    {
+    return view('posts.create');
+    }
 }
